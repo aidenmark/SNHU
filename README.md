@@ -1,29 +1,33 @@
-# SNHU - Southern New Hampshire University
+# SNHUCS370
+Current / Emerging Trends in Computer Science
 
-This repository contains coursework and projects completed as part of my undergraduate studies in Computer Science at Southern New Hampshire University (SNHU) from August 2021 to May 2025.
+Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 
-About
+Connect your learning from throughout this course to the larger field of computer science:
+- What do computer scientists do and why does it matter?
+- How do I approach a problem as a computer scientist?
+- What are my ethical responsibilities to the end user and the organization?
 
-	•	Program: Bachelor of Science in Computer Science
-	•	Concentration: Software Engineering
-	•	Duration: August 2021 - May 2025
-	•	University: Southern New Hampshire University, Manchester, NH
+Project Explanation
+For this project, I worked on training an intelligent agent using a Q-learning algorithm. I was given the basic structure of the code, which included the initialization of parameters and the framework for the Q-learning loop. My task was to complete the code to ensure the agent could effectively learn and navigate a maze to find a treasure.
 
-Contents
+Given Code:
+	•	The initial setup for the Q-learning parameters like n_epoch, max_memory, and data_size.
+	•	The framework for the Q-learning loop, including placeholders for the exploration-exploitation balance and experience replay.
 
-This repository organizes my course-specific projects and assignments by course number and term:
+Code I Created:
+	•	I implemented the main training loop, where the agent randomly selects a starting position, explores the maze, and updates its knowledge based on rewards and penalties.
+	•	I added the logic for balancing exploration and exploitation, ensuring the agent learns efficiently.
+	•	I integrated the experience replay mechanism to help the agent learn from past experiences and improve its decision-making.
+	•	I wrote the code for training the neural network model with the collected data and tracking the training progress.
 
-	•	CS465 - Full Stack Development I | Fall 2024
-	•	CS370 - Current/Emerging Trends in CS | Summer 2024
-	•	CS360 - Mobile Architecture and Programming | Fall 2024
-	•	CS340 - Client/Server Development | Fall 2024
-	•	CS320 - Software Testing, Automation, and Quality Assurance | Summer 2023
-	•	CS300 - Data Structures and Algorithms: Analysis and Design | Summer 2023
-	•	CS255 - System Analysis and Design | Spring 2023
-	•	CS250 - Software Development Lifecycle | Spring 2023
-	•	CS230 - Operating Platforms | Spring 2023
-	•	CS210 - Programming Languages | Fall 2022
+Role of Computer Scientists:
+Computer scientists design and develop algorithms, software, and systems that solve complex problems and improve our daily lives. Their work matters because it drives technological innovation, enhances efficiency, and enables new capabilities across various fields, from healthcare to entertainment.
 
-Notes
+Approach to Problem-Solving:
+As a computer scientist, I approach problems methodically. I start by understanding the problem requirements, breaking it down into smaller, manageable tasks. I then design algorithms to solve these tasks, implement the solutions in code, and test thoroughly to ensure they work correctly. Debugging and refining the code are crucial steps to optimize performance and accuracy.
 
-Each course folder may contain source code, project files, and documentation for individual assignments and projects as required by SNHU’s curriculum. This repository serves as a comprehensive record of my academic work, showcasing both my growth and knowledge across key areas in computer science.
+Ethical Responsibilities:
+My ethical responsibilities include ensuring that the software I develop is reliable, safe, and respects user privacy. I must consider the potential impact of my work on end users and society, avoiding biases in algorithms and ensuring fairness. It’s also important to maintain transparency and accountability in the development process, making sure that users and organizations understand how the technology works and its potential limitations.
+
+By working on this project, I applied these principles to develop a robust and ethical AI solution, contributing to the larger field of computer science and its goal of improving human life through technology.
